@@ -44,10 +44,10 @@ section {
   color: black;
 }
 
-.en span[lang="fr"] {
+.en [lang="fr"] {
   display: none;
 }
 
-.fr span[lang="en"] {
+.fr [lang="en"] {
   display: none;
 }
