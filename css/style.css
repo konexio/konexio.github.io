@@ -25,13 +25,29 @@ header {
   color: #555555;
 }
 
-/*.testimonials quote:before {
-  content: '"';
-  font-size: 36px;
-  margin-left: -20px;
-}*/
-
 .partner-logos {
   text-align: center;
   margin-bottom: 25px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+#language-selector {
+  text-align: right;
+}
+
+#language-selector .selected {
+  text-decoration: none;
+  cursor: default;
+  color: black;
+}
+
+.en span[lang="fr"] {
+  display: none;
+}
+
+.fr span[lang="en"] {
+  display: none;
 }
