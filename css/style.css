@@ -1,221 +1,59 @@
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body {
-font-family: 'Open Sans', sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  letter-spacing: 0.0325em;
 }
 
-header {
+h3 {
+  color: #0475BA;
+  text-decoration: underline;
+  font-size: 30px;
   text-align: center;
-  background: url(../imgs/coding1.jpg) no-repeat bottom center scroll;
-  background-color: white;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  display: block;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  background-color: hsla(0,0%,100%,0.25);
-  background-blend-mode: overlay;
-  margin-top: 0px;
-  padding-top: 0px;
 }
 
-
-.page-top {
-
-background-color: rgba(255, 255, 255, 0.8);
-padding-right: 20px;
-text-align: right;
-}
-
-#logo {
-    margin-right: 90px;
-}
-
-h6 {
-display: inline-block;
-padding: 0px 20px;
-
-}
-
-.heading{
-  margin: 150px 100px 100px 100px;
-  padding: 10px 40px 20px 40px;
-  color: white;
-  border: none;
-  background-color: rgba(128, 128, 128, 0.6);
-  text-align: center;
-  }
-
-.mainhead{font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 1px;
-}
-
-section {
-margin: 50px 0px;
-padding: 0 30px;
-text-align: center;
-}
-
-h1{}
-
-.h2-symbol{
-  font: 'Open Sans' bold ;
-  font-size: 50px;
-  color: white;
-  padding-bottom:80px;
-}
-
-#h3-style{
-  color: #0375BB;
-    font-weight: bold;
-  text-align: center;
+h2, h3 {
   text-transform: uppercase;
-  letter-spacing: 1px;
-  }
-
-#h3-maintact
-{
-  font-weight: bold;
-  letter-spacing: 1px;
-  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.0425em;
 }
 
-
-h4{
-  font-size: 18px;
-  padding-bottom: 1em;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 200;
-  letter-spacing: 1px;
+p {
+  line-height: 1.2;
 }
 
-p{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
+/*
+ * Sections
+*/
 
-.imginclusion{
-  width:100px;
-  height:80px;
-}
-
-.partnerimage
-{
-width:30px;
-height:20px;
-}
-
-.mainact
-{
-  background-color: #F6BC4D;
+.welcome-message {
+  text-align: center;
+  background-color: #231F20;
   color: white;
-  padding-top: 60px;
-  padding-bottom:20px;
-  font-family: 'Open Sans', sans-serif;
+  width: 70%;
+  margin: 0 auto;
 }
 
-.underline_text {
-      border-bottom: solid 3px #ffffff;
-      display: inline;
-      padding-bottom: 2px;
-    }
-
-.underline_text1 {
-      border-bottom: solid 3px #0375BB;
-      display: inline;
-      padding-bottom: 2px;
+.welcome-message h2 {
+  font-size: 28px;
 }
 
-.img-partner
-{padding-top: 4em;}
-
-.partner-logos
-{
-  display: inline-block;
-  margin: 0 20px;
-  width: 120px;
-  height: 80px;
-  }
-
-  .padding-volunt
-  {padding:0}
-
-  .section-team
-  {
-    margin: 50px 0px;
-    padding: 70px 30px;
-    text-align: center;
-    background-color: rgba(200,200,200,0.5);
-  }
-
-  .img-team
-  {
-    padding-top: 2em;}
-
-  .team-logos
-  {
-    display: inline-block;
-    margin: 20px 20px;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    }
-
-
-  .formdiv
-  {
-    margin: 0 40px;
-    font-family: 'Open Sans', sans-serif;
-  }
-
-input[type=text] {
-    width: 100%;
-    padding: 0px 20px;
-    border: 2px solid #ccc;
-    border-radius: 0px;
-    margin: 4px 0;
-    box-sizing: border-box;
-    background-color:  #F0F8FF;
-    font-family: 'Open Sans', sans-serif;
+.welcome-message h4 {
+  font-size: 21px;
 }
 
-
-label
-{
-  margin-top: 2em;
+.main-activities {
+  background-color: #F5BC4D;
+  color: white;
 }
 
-
-textarea {
-    width: 100%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 0px;
-    background-color:  #F0F8FF;
-    font-size: 16px;
-    resize: none;
-    font-family: 'Open Sans', sans-serif;
+.main-activities h3, .main-activities a {
+  color: inherit;
 }
 
-#button-send {
-    background-color: #008CBA;
-    border: none;
-    color: white;
-    padding: 0px 40px;
-      cursor: pointer;
-    font-size: 12px;
-    border-radius: 0px;
-    margin-left:240px;
-  margin-top: 2p0px;
-  font-family: 'Open Sans', sans-serif;
+.team {
+  background-color: #EAEAEB;
 }
-
-.hcontain
-{margin-top: 0px;
-padding-top: 0px;}
