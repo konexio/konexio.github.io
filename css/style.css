@@ -4,6 +4,10 @@
   clear: both;
 }
 
+.container {
+  margin-bottom: 40px;
+}
+
 body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
   letter-spacing: 0.0325em;
@@ -40,7 +44,7 @@ header {
   min-height: 90vh;
   display: flex;
   flex-direction: column;
-  margin-bottom: 5vh;
+  margin-bottom: 40px;
 }
 
 header nav {
@@ -96,6 +100,23 @@ nav li a {
 .welcome-message h4 {
   font-size: 21px;
   margin-bottom: 0;
+}
+
+.objectives {
+  margin-bottom: 0px;
+}
+
+.objectives h4 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.objective-columns {
+  text-align: center;
+}
+
+.objective-columns p {
+  text-align: left;
 }
 
 .main-activities {
