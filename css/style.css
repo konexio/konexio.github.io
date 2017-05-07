@@ -9,6 +9,10 @@ body {
   letter-spacing: 0.0325em;
 }
 
+h2 {
+  margin-bottom: 8px;
+}
+
 h3 {
   color: #0475BA;
   text-decoration: underline;
@@ -29,12 +33,29 @@ p {
  * Sections
 */
 
+header {
+  background: url('../imgs/coding1.jpg');
+  background-size: cover;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-container {
+  height: 100%;
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .welcome-message {
   text-align: center;
   background-color: #231F20;
   color: white;
   width: 70%;
-  margin: 0 auto;
+  padding: 20px 30px 25px;
 }
 
 .welcome-message h2 {
@@ -43,6 +64,7 @@ p {
 
 .welcome-message h4 {
   font-size: 21px;
+  margin-bottom: 0;
 }
 
 .main-activities {
