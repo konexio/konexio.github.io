@@ -7,6 +7,7 @@
 body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
   letter-spacing: 0.0325em;
+  color: #231F20;
 }
 
 h2 {
@@ -39,6 +40,36 @@ header {
   min-height: 90vh;
   display: flex;
   flex-direction: column;
+  margin-bottom: 5vh;
+}
+
+header nav {
+  background: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav li a {
+  color: #231F20;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .welcome-container {
