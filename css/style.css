@@ -122,6 +122,8 @@ nav li a {
 .main-activities {
   background-color: #F5BC4D;
   color: white;
+  padding: 20px 0;
+  margin-bottom: 40px;
 }
 
 .main-activities h3, .main-activities a {
