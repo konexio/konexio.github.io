@@ -23,6 +23,7 @@ h3 {
   text-decoration: underline;
   font-size: 30px;
   text-align: center;
+  font-weight: bold;
 }
 
 h2, h3 {
@@ -41,10 +42,11 @@ p {
 header {
   background: url('../imgs/coding1.jpg');
   background-size: cover;
-  min-height: 90vh;
+  height: 90vh;
+  min-height: 35rem;
   display: flex;
   flex-direction: column;
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 
 header nav {
@@ -106,7 +108,7 @@ li a:hover {
   margin-bottom: 0;
 }
 
-.objectives {
+.objectives, .partners {
   margin-bottom: 0px;
 }
 
@@ -136,6 +138,27 @@ li a:hover {
 
 .team {
   background-color: #EAEAEB;
+}
+
+.partner-logos:not(.last) {
+  margin-bottom: .8rem;
+}
+/*
+.partner-logos.last {
+  margin-bottom: 5rem;
+}*/
+
+.partner-logos div.columns {
+  display: table;
+  text-align: center;
+  height: 120px;
+  line-height: 120px;
+}
+
+.partner-logos img {
+  max-width: 100%;
+  max-height: 120px;
+  vertical-align: middle;
 }
 
 footer {
