@@ -32,9 +32,16 @@ h2, h3 {
   letter-spacing: 0.0425em;
 }
 
+h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
 p {
   line-height: 1.2;
 }
+
 
 /*
  * Sections
@@ -184,4 +191,31 @@ h4.columns, .skill h4 {
 
 .skill p {
   margin-bottom: 1.8rem;
+}
+
+
+
+.form-field {
+  margin-bottom: 2rem;
+}
+
+.form-field label {
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+
+.form-field input, .form-field textarea {
+  width: 100%;
+}
+
+input[type="submit"] {
+  float: right;
+  background-color: #0475BA;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.5rem;
 }
