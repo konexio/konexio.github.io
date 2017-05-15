@@ -12,6 +12,7 @@ body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
   letter-spacing: 0.0325em;
   color: #231F20;
+  margin-top: 4rem;
 }
 
 h2 {
@@ -53,6 +54,11 @@ header nav {
   background: white;
   display: flex;
   justify-content: space-around;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
 }
 
 ul {
