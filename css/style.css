@@ -114,7 +114,7 @@ li a:hover {
   margin-bottom: 0;
 }
 
-.objectives, .partners, .values {
+.objectives, .partners, .values, .initiatives {
   margin-bottom: 0px;
 }
 
@@ -175,4 +175,13 @@ footer a {
 
 footer .container {
   margin-bottom: 0;
+}
+
+
+h4.columns, .skill h4 {
+  text-align: center;
+}
+
+.skill p {
+  margin-bottom: 1.8rem;
 }
