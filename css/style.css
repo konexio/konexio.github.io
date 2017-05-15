@@ -108,21 +108,25 @@ li a:hover {
   margin-bottom: 0;
 }
 
-.objectives, .partners {
+.objectives, .partners, .values {
   margin-bottom: 0px;
 }
 
-.objectives h4 {
+.objectives h4, .values h4 {
   font-size: 22px;
   text-align: center;
 }
 
-.objective-columns {
+.objective-columns, .value-columns {
   text-align: center;
 }
 
-.objective-columns p {
+.objective-columns p, .value-columns p {
   text-align: left;
+}
+
+.objective-columns img, .value-columns img {
+  margin-bottom: 0.8em;
 }
 
 .main-activities {
@@ -140,16 +144,7 @@ li a:hover {
   background-color: #EAEAEB;
 }
 
-.partner-logos:not(.last) {
-  margin-bottom: .8rem;
-}
-/*
-.partner-logos.last {
-  margin-bottom: 5rem;
-}*/
-
-.partner-logos div.columns {
-  display: table;
+.partner-logos .slick-track div.slick-slide {
   text-align: center;
   height: 120px;
   line-height: 120px;
@@ -159,6 +154,7 @@ li a:hover {
   max-width: 100%;
   max-height: 120px;
   vertical-align: middle;
+  display: inline !important;
 }
 
 footer {

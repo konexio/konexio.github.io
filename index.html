@@ -35,8 +35,8 @@
     </nav>
     <div class="welcome-container">
       <div class="welcome-message">
-        <h2>Connecting the World Together Through Code</h2>
-        <h4>Welcoming refugees into the community through tech</h4>
+        <h2>Empowerment and connection through digital access</h2>
+        <h4>Welcoming refugees into the community through tech and innovation</h4>
       </div>
     </div>
   </header>
@@ -50,9 +50,33 @@
     </div>
   </div><!-- container -->
 
+  <div class="container values">
+    <div class="twelve columns">
+      <h3>Our Core Values</h3>
+    </div>
+  </div><!-- container -->
+
+  <div class="container value-columns">
+    <div class="four columns">
+      <h4>Inclusion</h4>
+      <img src="imgs/Inclusion.jpg" alt="Inclusion">
+      <p>Teach fundamental concepts of web development through easy, interactive methods and online platforms.</p>
+    </div>
+    <div class="four columns">
+      <h4>Interchange</h4>
+      <img src="imgs/Interchange.jpg" alt="Interchange">
+      <p>Empower our participants with professional opportunities</p>
+    </div>
+    <div class="four columns">
+      <h4>Partnership</h4>
+      <img src="imgs/Partnership.jpg" alt="Partnership">
+      <p>Build a supportive community of individuals passionate about code and engaged in the tech community</p>
+    </div>
+  </div><!-- container -->
+
   <div class="container objectives">
     <div class="twelve columns">
-      <h4>The objectives of our organization are as follows:</h4>
+      <h3>Our Objectives</h3>
     </div>
   </div><!-- container -->
 
@@ -85,9 +109,24 @@
       <h3>Testimonials</h3>
     </div>
     <div class="twelve columns testimonial-slider">
-      <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam expedita voluptatum tenetur neque impedit repellendus corporis, ab doloremque fugiat magni deserunt facilis placeat autem cupiditate sapiente ipsum blanditiis, eum nostrum.</div>
-      <div>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-      <div>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      <div>
+        Above all, a thousand and one thanks for all this help. There is a willingness and enthusiasm to help and share knowledge. I learned a lot in these workshops; and I avow that it will be useful for life! (translated from French) [Participant, Summer 2016]
+      </div>
+      <div>
+        They helped me discover code and the many opportunities. (translated from French) [Participant, Summer 2016]
+      </div>
+      <div>
+        These workshops have helped me to get deeper insight into web development. [Participant, Summer 2016]
+      </div>
+      <div>
+        It was a very good method that [helped] me [to] learn coding, which before I didn’t dare to do by my own. I would like to thank everyone who participated in making this workshop possible especially Dustin, Jean and Larissa. [Participant, Summer 2016]
+      </div>
+      <div>
+        Personally, they have helped me to have a foundation [in programming] that is an essential part of my master's degree right now. For those who want to master a good level of coding and who need practice and motivation, I recommend [the workshops]. (translated from French) [Maya, from Syria, Summer and Fall 2016]
+      </div>
+      <div>
+        We hope to continue the program, because we hope to not stop at 10 sessions. We are eager to learn and catch up! (translated from French) [Participant, Summer 2016] 
+      </div>
     </div>
   </div>
 
@@ -98,20 +137,16 @@
   </div>
 
   <div class="container partner-logos">
-    <div class="three columns"><img src="imgs/adaweek.jpg" alt="partner"></div>
-    <div class="three columns"><img src="imgs/autremonde.png" alt="partner"></div>
-    <div class="three columns"><img src="imgs/BSF.jpg" alt="partner"></div>
-    <div class="three columns"><img src="imgs/EPN.png" alt="partner"></div>
-  </div>
-  <div class="container partner-logos">
-    <div class="three columns"><img src="imgs/IIE.png" alt="partner"></div>
-    <div class="three columns"><img src="imgs/make-sense.jpg" alt="partner"></div>
-    <div class="three columns"><img src="imgs/picoulet.jpg" alt="partner"></div>
-    <div class="three columns"><img src="imgs/simplon.png" alt="partner"></div>
-  </div>
-  <div class="container partner-logos last">
-    <div class="three columns"><img src="imgs/singa.png" alt="partner"></div>
-    <div class="three columns"><img src="imgs/Techfugees.jpg" alt="partner"></div>
+    <div><img src="imgs/adaweek.jpg" alt="partner"></div>
+    <div><img src="imgs/autremonde.png" alt="partner"></div>
+    <div><img src="imgs/BSF.jpg" alt="partner"></div>
+    <div><img src="imgs/EPN.png" alt="partner"></div>
+    <div><img src="imgs/IIE.png" alt="partner"></div>
+    <div><img src="imgs/make-sense.jpg" alt="partner"></div>
+    <div><img src="imgs/picoulet.jpg" alt="partner"></div>
+    <div><img src="imgs/simplon.png" alt="partner"></div>
+    <div><img src="imgs/singa.png" alt="partner"></div>
+    <div><img src="imgs/Techfugees.jpg" alt="partner"></div>
   </div>
 
   <!-- <div class="container team">
@@ -166,7 +201,7 @@
     </div>
     <div class="six columns">
       <h3>Contact</h3>
-      <form action="https://formspree.io/jean.guo@konexio.eu" method="POST">
+      <form action="https://formspree.io/contact@konexio.eu" method="POST">
         <div class="form-field">
           <label for="name">Your Name</label>
           <input type="text" name="name">
@@ -214,6 +249,12 @@
     $('.testimonial-slider').slick({
       autoplay: true,
       arrows: false,
+    });
+
+    $('.partner-logos').slick({
+      autoplay: true,
+      arrows: false,
+      slidesToShow: 4
     });
   });
 
