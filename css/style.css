@@ -15,6 +15,14 @@ body {
   margin-top: 4rem;
 }
 
+a {
+  color: #231F20;
+}
+
+em {
+  font-style: italic;
+}
+
 h2 {
   margin-bottom: 8px;
 }
