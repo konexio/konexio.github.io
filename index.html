@@ -6,6 +6,7 @@
   <meta name="description" content="Konexio.">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/ideal-image-slider.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 </head>
@@ -233,6 +234,18 @@
     <div><img src="imgs/wintegreat.jpg" alt="partner"></div>
   </div>
 
+  <div class="container photos">
+    <div id="slider">
+      <img src="imgs/photos/1.jpg" alt="">
+      <img data-src="imgs/photos/2.jpg" src="" alt="">
+      <img data-src="imgs/photos/3.jpg" src="" alt="">
+      <img data-src="imgs/photos/4.jpg" src="" alt="">
+      <img data-src="imgs/photos/5.jpg" src="" alt="">
+      <img data-src="imgs/photos/6.jpg" src="" alt="">
+      <img data-src="imgs/photos/7.jpg" src="" alt="">
+    </div>
+  </div>
+
   <!-- <div class="container team">
     <div class="team-member three columns">
       <img src="" alt="">
@@ -328,6 +341,7 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  <script src="js/ideal-image-slider.js"></script>
   <script type="text/javascript">
   $(document).ready(function(){
     $('.testimonial-slider').slick({
@@ -342,6 +356,15 @@
     });
   });
 
+  </script>
+
+  <script>
+    var slider = new IdealImageSlider.Slider({
+      selector: '#slider',
+      height: 400,
+      interval: 2500
+    });
+    slider.start();
   </script>
 </body>
 </html>
