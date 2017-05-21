@@ -235,3 +235,11 @@ input[type="submit"] {
 .team-member img {
   display: block;
 }
+
+#partners:before, #about:before, #testimonials:before, #activities:before {
+  display: block;
+  content: " ";
+  margin-top: -80px;
+  height: 80px;
+  visibility: hidden;
+}
