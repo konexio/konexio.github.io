@@ -236,10 +236,14 @@ input[type="submit"] {
   display: block;
 }
 
-#partners:before, #about:before, #testimonials:before, #activities:before {
+#partners:before, #about:before, #testimonials:before, #initiatives:before {
   display: block;
   content: " ";
   margin-top: -80px;
   height: 80px;
   visibility: hidden;
+}
+
+.value-columns p, .objective-columns p {
+  text-align: center;
 }
