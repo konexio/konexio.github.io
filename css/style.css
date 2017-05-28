@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Hind');
+
 .container:after {
   content: "";
   display: table;
@@ -9,14 +11,14 @@
 }
 
 body {
-  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: "Hind", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
   letter-spacing: 0.0325em;
   color: #231F20;
   margin-top: 4rem;
 }
 
 a {
-  color: #231F20;
+  color: #2dc1e2;
 }
 
 em {
