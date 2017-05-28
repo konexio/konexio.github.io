@@ -1,53 +1,251 @@
-body {
-  font-family: 'Hind', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Hind');
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.main {
-  margin-top: 10rem;
+.container {
+  margin-bottom: 40px;
 }
+
+body {
+  font-family: "Hind", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  letter-spacing: 0.0325em;
+  color: #231F20;
+  margin-top: 4rem;
+}
+
+a {
+  color: #2dc1e2;
+}
+
+em {
+  font-style: italic;
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+h3 {
+  color: #0475BA;
+  text-decoration: underline;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2, h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.0425em;
+}
+
+h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+p {
+  line-height: 1.2;
+}
+
+
+/*
+ * Sections
+*/
 
 header {
-  text-align: center;
+  background: url('../imgs/backdrop.png');
+  background-size: cover;
+  height: 90vh;
+  min-height: 35rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
 }
 
-.objectives {
-  margin-bottom: 15px;
+header nav {
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
 }
 
-.objectives li {
-  list-style-type: none;
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.testimonials quote {
-  display: block;
-  margin-bottom: 25px;
-  font-style: italic;
-  color: #555555;
+nav h1 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
 }
 
-.partner-logos {
-  text-align: center;
-  margin-bottom: 25px;
+li {
+  margin: 0 10px;
 }
 
-section {
-  margin-bottom: 50px;
-}
-
-#language-selector {
-  text-align: right;
-}
-
-#language-selector .selected {
+li a {
+  color: #231F20;
+  text-transform: uppercase;
   text-decoration: none;
-  cursor: default;
-  color: black;
 }
 
-.en [lang="fr"] {
-  display: none;
+li a:hover {
+  text-decoration: underline;
 }
 
-.fr [lang="en"] {
-  display: none;
+.welcome-container {
+  height: 100%;
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-message {
+  text-align: center;
+  background-color: #231F20;
+  color: white;
+  width: 70%;
+  padding: 20px 30px 25px;
+}
+
+.welcome-message h2 {
+  font-size: 28px;
+}
+
+.welcome-message h4 {
+  font-size: 21px;
+  margin-bottom: 0;
+}
+
+.objectives, .partners, .values, .initiatives {
+  margin-bottom: 0px;
+}
+
+.objectives h4, .values h4 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.objective-columns, .value-columns {
+  text-align: center;
+}
+
+.objective-columns p, .value-columns p {
+  text-align: left;
+}
+
+.objective-columns img, .value-columns img {
+  margin-bottom: 0.8em;
+}
+
+.main-activities {
+  background-color: #F5BC4D;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+
+.main-activities h3, .main-activities a {
+  color: inherit;
+}
+
+.team {
+  background-color: #EAEAEB;
+}
+
+.partner-logos .slick-track div.slick-slide {
+  text-align: center;
+  height: 120px;
+  line-height: 120px;
+}
+
+.partner-logos img {
+  max-width: 100%;
+  max-height: 120px;
+  vertical-align: middle;
+  display: inline !important;
+}
+
+footer {
+  background-color: #2C2F33;
+  padding: .5em 0;
+}
+
+footer a {
+  color: white;
+  text-transform: none;
+}
+
+footer .container {
+  margin-bottom: 0;
+}
+
+
+h4.columns, .skill h4 {
+  text-align: center;
+}
+
+.skill p {
+  margin-bottom: 1.8rem;
+}
+
+
+
+.form-field {
+  margin-bottom: 2rem;
+}
+
+.form-field label {
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+
+.form-field input, .form-field textarea {
+  width: 100%;
+}
+
+input[type="submit"] {
+  float: right;
+  background-color: #0475BA;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.team-member {
+  height: 240px;
+}
+
+.team-member img {
+  display: block;
+}
+
+#partners:before, #about:before, #testimonials:before, #initiatives:before {
+  display: block;
+  content: " ";
+  margin-top: -80px;
+  height: 80px;
+  visibility: hidden;
+}
+
+.value-columns p, .objective-columns p {
+  text-align: center;
 }
