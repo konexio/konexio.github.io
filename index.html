@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/ideal-image-slider.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
@@ -377,6 +378,18 @@
     <p><span style="font-weight: bold">Thanks to:</span> Jon H · Erica L · Sara F · Lei L · Pingping X · John G · Manon C · Judith N · Xiaongying M · Didier C · Elhadji Adama T · Judy Z</p>
   </div>
 
+  <div class="container supports">
+    <div class="twelve columns">
+      <h3>They support us</h3>
+    </div>
+  </div>
+
+  <div class="container support-logos">
+    <div><img src="imgs/fondation-orange.png" alt="support"></div>
+    <div><img src="imgs/crossknowledge-foundation.png" alt="support"></div>
+    <div><img src="imgs/les-gros-mots.jpg" alt="support"></div>
+  </div>
+
   <div class="penultimate container">
     <div class="six columns">
       <h3>Call for Volunteers</h3>
@@ -463,6 +476,12 @@
         autoplay: true,
         arrows: false,
         slidesToShow: 4
+      });
+
+      $('.support-logos').slick({
+        autoplay: true,
+        arrows: false,
+        slidesToShow: 3
       });
     });
   </script>
