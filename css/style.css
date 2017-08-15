@@ -110,9 +110,11 @@ li a:hover {
   height: 100%;
   width: 100%;
   flex-grow: 1;
+  flex-wrap: wrap;
   display: flex;
   align-items: center;
   justify-content: center;
+  align-content: center;
 }
 
 .welcome-message {
@@ -130,6 +132,32 @@ li a:hover {
 .welcome-message h4 {
   font-size: 21px;
   margin-bottom: 0;
+}
+
+.welcome-shortcuts {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-shortcuts a {
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  background-color: #231f20;
+  font-size: 21px;
+  color: white;
+  text-align: center;
+  padding: 0.8em;
+  margin: 0.4em;
+  text-decoration: none;
+}
+
+.welcome-shortcuts a:hover {
+  border-color: #231f20;
+  color: #231f20;
+  background-color: white;
 }
 
 .objectives,
@@ -230,11 +258,16 @@ h4.columns,
 }
 
 input[type="submit"] {
+  border: none;
   float: right;
   background-color: #0475ba;
   color: white;
   text-transform: uppercase;
   font-size: 1.5rem;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
 }
 
 .team-member {
