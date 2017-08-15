@@ -319,7 +319,9 @@ input[type="submit"]:hover {
   font-size: 1.8em;
   font-family: "Hind", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
     Geneva, Verdana, sans-serif;
-  border: none;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
   color: white;
   background-color: #0f70b7;
   padding: 0.4em;
@@ -328,6 +330,9 @@ input[type="submit"]:hover {
 
 #donate button:hover {
   cursor: pointer;
+  border-color: #0f70b7;
+  background-color: white;
+  color: #231f20;
 }
 
 #donate img {
