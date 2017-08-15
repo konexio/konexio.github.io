@@ -30,6 +30,7 @@
     }
   </style>
   <link rel="icon" href="favicon.ico">
+  <script src="js/init.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -61,7 +62,7 @@
         <li><a href="https://www.facebook.com/konexio.eu"><img src="imgs/facebook.png" alt="Facebook"></a></li>
         <li><a href="https://twitter.com/Konexio_eu"><img src="imgs/twitter.png" alt="Twitter"></a></li>
         <li><a href="http://eepurl.com/cEVfen"><img src="imgs/mailchimp.png" alt="Newsletter"></a></li>
-        <li>EN | <a href="index-french.html">FR</a></li>
+        <li><span style="font-weight: bold;">EN</span> | <a href="index-french.html" id="lang-fr">FR</a></li>
       </ul>
     </nav>
     <div class="welcome-container">
@@ -469,35 +470,7 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
   <script src="js/ideal-image-slider.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('.testimonial-slider').slick({
-        autoplay: true,
-        arrows: false,
-      });
-
-      $('.partner-logos').slick({
-        autoplay: true,
-        arrows: false,
-        slidesToShow: 4
-      });
-
-      $('.support-logos').slick({
-        autoplay: true,
-        arrows: false,
-        slidesToShow: 3
-      });
-    });
-  </script>
-
-  <script>
-    var slider = new IdealImageSlider.Slider({
-      selector: '#slider',
-      height: 400,
-      interval: 2500
-    });
-    slider.start();
-  </script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
