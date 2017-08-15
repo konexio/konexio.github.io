@@ -10,6 +10,25 @@
   <link rel="stylesheet" href="css/ideal-image-slider.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+  <style media="screen">
+    .embed-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+    }
+
+    .embed-container iframe,
+    .embed-container object,
+    .embed-container embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </head>
 
 <body>
@@ -61,36 +80,16 @@
         Nous nous engageons pour accélérer leur inclusion en proposant l’accès et la formation à des connaissances informatiques et numériques. Par l’activité et par l’exemple, il s’agit de casser le stéréotype visant à nier la capacité des réfugiés à
         contribuer à la vie de la société.
       </p>
-      <div class="embed-container" style="margin-top: 20px;"><iframe src="https://www.youtube.com/embed/MRJZfQAJ6rg?rel=0" frameborder="0" allowfullscreen=""></iframe></div>
+      <div class="embed-container" style="margin-top: 20px;"><iframe src="https://www.youtube.com/embed/MRJZfQAJ6rg?rel=0" frameborder="0" allowfullscreen></iframe></div>
     </div>
   </div>
   <!-- container -->
 
   <div class="container crowdfund">
     <div class="twelve columns">
-      <br>
-      <h3>Soutenez nous avec un don </h3>
-      <style>
-        .embed-container {
-          position: relative;
-          padding-bottom: 56.25%;
-          height: 0;
-          overflow: hidden;
-          max-width: 100%;
-        }
-
-        .embed-container iframe,
-        .embed-container object,
-        .embed-container embed {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-        }
-      </style>
-      <div style="text-align: center; margin-top: 20px;">
-        <iframe frameborder="0" height="390px" width="300px" src="https://www.ulule.com/konexio/widget.html" scrolling="no"></iframe>
+      <h3>Nous soutenir avec un don</h3>
+      <div id="donate">
+        <button type="button" name="donate-button" onclick="window.open('https://www.helloasso.com/associations/konexio/formulaires/1', '_blank')">Faire un don sur &nbsp;<img src="imgs/helloasso.png" alt="HelloAsso" height="30"></button>
       </div>
     </div>
   </div>

@@ -11,9 +11,10 @@
 }
 
 body {
-  font-family: "Hind", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: "Hind", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+    Geneva, Verdana, sans-serif;
   letter-spacing: 0.0325em;
-  color: #231F20;
+  color: #231f20;
   margin-top: 4rem;
 }
 
@@ -30,14 +31,15 @@ h2 {
 }
 
 h3 {
-  color: #0475BA;
+  color: #0475ba;
   text-decoration: underline;
   font-size: 30px;
   text-align: center;
   font-weight: bold;
 }
 
-h2, h3 {
+h2,
+h3 {
   text-transform: uppercase;
   letter-spacing: 0.0425em;
 }
@@ -52,10 +54,9 @@ p {
   line-height: 1.2;
 }
 
-
 /*
  * Sections
-*/
+ */
 
 header {
   background: url('../imgs/backdrop.jpg');
@@ -96,7 +97,7 @@ li {
 }
 
 li a {
-  color: #231F20;
+  color: #231f20;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -116,7 +117,7 @@ li a:hover {
 
 .welcome-message {
   text-align: center;
-  background-color: #231F20;
+  background-color: #231f20;
   color: white;
   width: 70%;
   padding: 20px 30px 25px;
@@ -131,40 +132,48 @@ li a:hover {
   margin-bottom: 0;
 }
 
-.objectives, .partners, .values, .initiatives {
+.objectives,
+.partners,
+.values,
+.initiatives {
   margin-bottom: 0px;
 }
 
-.objectives h4, .values h4 {
+.objectives h4,
+.values h4 {
   font-size: 22px;
   text-align: center;
 }
 
-.objective-columns, .value-columns {
+.objective-columns,
+.value-columns {
   text-align: center;
 }
 
-.objective-columns p, .value-columns p {
+.objective-columns p,
+.value-columns p {
   text-align: left;
 }
 
-.objective-columns img, .value-columns img {
+.objective-columns img,
+.value-columns img {
   margin-bottom: 0.8em;
 }
 
 .main-activities {
-  background-color: #F5BC4D;
+  background-color: #f5bc4d;
   color: white;
   padding: 20px 0;
   margin-bottom: 40px;
 }
 
-.main-activities h3, .main-activities a {
+.main-activities h3,
+.main-activities a {
   color: inherit;
 }
 
 .team {
-  background-color: #EAEAEB;
+  background-color: #eaeaeb;
 }
 
 .partner-logos .slick-track div.slick-slide {
@@ -181,7 +190,7 @@ li a:hover {
 }
 
 footer {
-  background-color: #2C2F33;
+  background-color: #2c2f33;
   padding: .5em 0;
 }
 
@@ -194,16 +203,14 @@ footer .container {
   margin-bottom: 0;
 }
 
-
-h4.columns, .skill h4 {
+h4.columns,
+.skill h4 {
   text-align: center;
 }
 
 .skill p {
   margin-bottom: 1.8rem;
 }
-
-
 
 .form-field {
   margin-bottom: 2rem;
@@ -217,14 +224,14 @@ h4.columns, .skill h4 {
   font-size: 0.8em;
 }
 
-
-.form-field input, .form-field textarea {
+.form-field input,
+.form-field textarea {
   width: 100%;
 }
 
 input[type="submit"] {
   float: right;
-  background-color: #0475BA;
+  background-color: #0475ba;
   color: white;
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -238,7 +245,10 @@ input[type="submit"] {
   display: block;
 }
 
-#partners:before, #about:before, #testimonials:before, #initiatives:before {
+#partners:before,
+#about:before,
+#testimonials:before,
+#initiatives:before {
   display: block;
   content: " ";
   margin-top: -80px;
@@ -246,12 +256,14 @@ input[type="submit"] {
   visibility: hidden;
 }
 
-.value-columns p, .objective-columns p {
+.value-columns p,
+.objective-columns p {
   text-align: center;
 }
 
 @media only screen and (max-width: 1090px) {
-  header, header nav {
+  header,
+  header nav {
     display: block;
   }
 
@@ -263,4 +275,28 @@ input[type="submit"] {
   nav ul {
     display: flex;
   }
+}
+
+/* Donation button */
+#donate {
+  text-align: center;
+}
+
+#donate button {
+  font-size: 1.8em;
+  font-family: "Hind", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+    Geneva, Verdana, sans-serif;
+  border: none;
+  color: white;
+  background-color: #0f70b7;
+  padding: 0.4em;
+  vertical-align: middle;
+}
+
+#donate button:hover {
+  cursor: pointer;
+}
+
+#donate img {
+  vertical-align: sub;
 }
