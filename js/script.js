@@ -3,7 +3,7 @@
   $(document).ready(function() {
     $('.testimonial-slider').slick({
       autoplay: true,
-      arrows: false,
+      arrows: false
     });
 
     $('.partner-logos').slick({
@@ -15,7 +15,7 @@
     $('.support-logos').slick({
       autoplay: true,
       arrows: false,
-      slidesToShow: 3
+      slidesToShow: 1
     });
   });
 
