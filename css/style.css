@@ -298,6 +298,13 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
+.anchor::before {
+  content: "";
+  display: block;
+  height: 90px;
+  margin: -90px 0 0;
+}
+
 @media only screen and (max-width: 1090px) {
   header,
   header nav {
@@ -311,6 +318,13 @@ input[type="submit"]:hover {
 
   nav ul {
     display: flex;
+  }
+
+  .anchor::before {
+    content: "";
+    display: block;
+    height: 130px;
+    margin: -130px 0 0;
   }
 }
 
