@@ -33,6 +33,7 @@ h2 {
 h3 {
   color: #0475ba;
   text-decoration: underline;
+  text-underline-position: under;
   font-size: 30px;
   text-align: center;
   font-weight: bold;
