@@ -300,15 +300,11 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
-.anchor {
-  z-index: -100;
-}
-
 .anchor::before {
   content: "";
-  display: block;
   height: 90px;
   margin: -90px 0 0;
+  z-index: -1;
 }
 
 @media only screen and (max-width: 1090px) {
@@ -328,18 +324,18 @@ input[type="submit"]:hover {
 
   .anchor::before {
     content: "";
-    display: block;
     height: 130px;
     margin: -130px 0 0;
+    z-index: -1;
   }
 }
 
-/* Donation button */
-#donate {
+/* Buttons for donation and signups */
+.action-buttons {
   text-align: center;
 }
 
-#donate button {
+.action-buttons button {
   font-size: 1.8em;
   font-family: "Hind", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
     Geneva, Verdana, sans-serif;
@@ -350,15 +346,16 @@ input[type="submit"]:hover {
   background-color: #0f70b7;
   padding: 0.4em;
   vertical-align: middle;
+  z-index: 10;
 }
 
-#donate button:hover {
+.action-buttons button:hover {
   cursor: pointer;
   border-color: #0f70b7;
   background-color: white;
   color: #231f20;
 }
 
-#donate img {
+.action-buttons img {
   vertical-align: sub;
 }
