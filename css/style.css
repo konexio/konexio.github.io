@@ -300,6 +300,10 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
+.anchor {
+  z-index: -100;
+}
+
 .anchor::before {
   content: "";
   display: block;
