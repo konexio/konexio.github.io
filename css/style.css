@@ -284,6 +284,15 @@ input[type="submit"]:hover {
   display: block;
 }
 
+.team-member .fa {
+  font-size: 1.4em;
+}
+
+.team-member a:hover {
+  color: #0f75bc;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+
 #partners:before,
 #about:before,
 #testimonials:before,
