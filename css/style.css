@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Hind');
 
 .container:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "Hind", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+  font-family: 'Hind', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans',
     Geneva, Verdana, sans-serif;
   letter-spacing: 0.0325em;
   color: #231f20;
@@ -225,7 +225,7 @@ li a:hover {
 
 footer {
   background-color: #2c2f33;
-  padding: .5em 0;
+  padding: 0.5em 0;
 }
 
 footer a {
@@ -253,7 +253,7 @@ h4.columns,
 .form-field label {
   display: block;
   text-transform: uppercase;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-weight: bold;
   font-size: 0.8em;
 }
@@ -263,7 +263,7 @@ h4.columns,
   width: 100%;
 }
 
-input[type="submit"] {
+input[type='submit'] {
   border: none;
   float: right;
   background-color: #0475ba;
@@ -272,7 +272,7 @@ input[type="submit"] {
   font-size: 1.5rem;
 }
 
-input[type="submit"]:hover {
+input[type='submit']:hover {
   cursor: pointer;
 }
 
@@ -288,9 +288,12 @@ input[type="submit"]:hover {
   font-size: 1.4em;
 }
 
+.team-member a {
+  color: grey;
+}
+
 .team-member a:hover {
-  color: #0f75bc;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+  color: #0475ba;
 }
 
 #partners:before,
@@ -298,7 +301,7 @@ input[type="submit"]:hover {
 #testimonials:before,
 #initiatives:before {
   display: block;
-  content: " ";
+  content: ' ';
   margin-top: -80px;
   height: 80px;
   visibility: hidden;
@@ -310,7 +313,7 @@ input[type="submit"]:hover {
 }
 
 .anchor::before {
-  content: "";
+  content: '';
   display: block;
   height: 90px;
   margin: -90px 0 0;
@@ -333,7 +336,7 @@ input[type="submit"]:hover {
   }
 
   .anchor::before {
-    content: "";
+    content: '';
     display: block;
     height: 130px;
     margin: -130px 0 0;
@@ -348,7 +351,7 @@ input[type="submit"]:hover {
 
 .action-buttons button {
   font-size: 1.8em;
-  font-family: "Hind", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+  font-family: 'Hind', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans',
     Geneva, Verdana, sans-serif;
   border-style: solid;
   border-width: 2px;
