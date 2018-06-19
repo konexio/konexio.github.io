@@ -1,0 +1,33 @@
+#language-selector {
+  text-align: right;
+}
+
+#language-selector .selected {
+  text-decoration: none;
+  cursor: default;
+  color: black;
+  font-weight: 600;
+}
+
+.en span[lang="fr"] {
+  display: none;
+}
+
+.fr span[lang="en"] {
+  display: none;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+.highlight {
+  font-weight: 600;
+  color: #0475ba;
+}
+
+.photos img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
