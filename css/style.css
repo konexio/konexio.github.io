@@ -62,13 +62,26 @@ p {
  */
 
 header {
-  background: url('../imgs/backdrop.jpg');
-  background-size: cover;
   height: 90vh;
   min-height: 35rem;
   display: flex;
   flex-direction: column;
   margin-bottom: 4rem;
+}
+
+.coding {
+  background: url('../imgs/coding1.jpg');
+  background-size: cover;
+}
+
+.teaching {
+  background: url('../imgs/backdrop.jpg');
+  background-size: cover;
+}
+
+.digital {
+  background: url('../imgs/coding1.jpg');
+  background-size: cover;
 }
 
 header nav {
